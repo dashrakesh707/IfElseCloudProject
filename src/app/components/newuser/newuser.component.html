@@ -1,0 +1,21 @@
+<div class="container">
+    <h3>New User</h3>
+
+    <div class="overflow-y">
+        <table>
+            <tr *ngFor="let item of fetchData.new_users">
+
+                <td><img class="user-img" src="{{item.picture}}" alt="" srcset=""></td>
+                <td>{{item.name}}<br />
+                    <span class="country">{{item.country}}</span>
+                </td>
+                <td>
+                    <div class="progress-bar" class="progress-bar" [ngStyle]="getProgressBarStyle(item.progress)">
+                        {{item.progress}}%</div>
+                </td>
+                <td><button class="active-btn">{{item.isActive}}</button></td>
+
+            </tr>
+        </table>
+    </div>
+</div>

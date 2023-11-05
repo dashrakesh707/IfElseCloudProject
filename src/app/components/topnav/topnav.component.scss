@@ -1,0 +1,38 @@
+
+.navbar{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+}
+.search{
+    padding: 15px;
+    margin-left: 20px;
+  
+}
+.search input{
+    border: none;
+outline: none;
+margin-left: 15px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.right-nav{
+    padding: 15px;
+}
+.right-nav li{
+    display: inline;
+    margin-right: 40px;
+}
+.right-nav li select{
+    border: none;
+    background:none;
+ 
+}
+.down-icon{
+    margin-left: 10px;
+}

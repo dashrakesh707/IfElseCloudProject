@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px 0;
+}
+.left-chart,.middle-chart,.right-chart{
+    width:30%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+

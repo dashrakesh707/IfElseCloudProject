@@ -1,0 +1,14 @@
+.sidenav{
+    position: fixed;
+    width: 70px;
+}
+.main-div{
+    display: flex;
+   
+}
+.info-div{
+    width: 100%;
+    background-color: #f4f7fc;
+    height: 100vh;
+    overflow-y: auto;
+}

@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+$gray-color:#656a79;
+
+@font-face {
+    font-family: Roboto;
+    src: url(assets/Roboto-Light.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ fa-icon{
+    color: #bec1ca;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0 20px;
+}
+table tr td{
+    text-align:center;
+    padding:10px 0;
+    color: $gray-color;
+   font-size: 13px;
+}
+div,h3,ul li,a,select{
+    font-family: 'Roboto';
+
+}
+tr{
+    border-bottom: 1px solid gainsboro;
+}
+.overflow-y{
+    height:400px;
+    overflow-y: auto;
+}
